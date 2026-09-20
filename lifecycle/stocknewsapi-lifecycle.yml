@@ -1,0 +1,8 @@
+generated: '2026-09-20'
+method: searched
+source: https://stocknewsapi.com/status
+status_page: https://stocknewsapi.com/status
+versioning:
+  policy: Not documented
+deprecation:
+  policy: Not documented

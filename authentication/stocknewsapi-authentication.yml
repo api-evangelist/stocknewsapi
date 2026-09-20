@@ -1,0 +1,9 @@
+generated: '2026-09-20'
+method: searched
+source: https://stocknewsapi.com/documentation
+schemes:
+- type: apiKey
+  name: token
+  in: query
+  description: API token required for all requests, passed as a query parameter
+  docs: https://stocknewsapi.com/documentation

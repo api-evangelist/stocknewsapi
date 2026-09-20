@@ -1,0 +1,54 @@
+generated: '2026-09-20'
+method: searched
+source: https://stocknewsapi.com/pricing
+name: Stock News API Pricing
+audience: developer-api
+pricing_basis: tiered-subscription
+published: true
+delivery:
+  delivery: managed
+plans:
+- name: Basic
+  price_text: $19.99
+  price: 19.99
+  currency: USD
+  billing_period: month
+  included_quota:
+    calls: 20000
+    period: month
+  features:
+    - Individual Ticker News
+    - General Market News
+    - Filter by News Sources
+    - Filter by Type & Sentiment
+    - Tickers Database Endpoint
+    - Sort by Rank
+    - Other Basic Parameters
+- name: Premium
+  price_text: $49.99
+  price: 49.99
+  currency: USD
+  billing_period: month
+  included_quota:
+    calls: 50000
+    period: month
+  features:
+    - All ticker news
+    - Top Mentions & Sentiment
+    - Trending Headlines & Events
+    - Upgrades/Downgrades
+    - Historical Data
+    - Other Advanced Parameters
+    - All Basic Plan Features
+- name: Business
+  price_text: '-'
+  price: '-'
+  currency: null
+  billing_period: month
+  included_quota:
+    calls: Custom
+    period: month
+  features:
+    - Custom calls per month
+    - Premium Technical Support
+    - Flexible Billing Options

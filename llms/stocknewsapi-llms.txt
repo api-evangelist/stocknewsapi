@@ -1,0 +1,22 @@
+# Stock News API - llms.txt
+# Generated: 2026-09-20
+# Method: generated
+
+Stock News API provides a JSON API for stock market and financial news data.
+
+## API Endpoints
+- Base URL: https://stocknewsapi.com/api/v1
+- Authentication: API token required (token parameter)
+
+## Available Endpoints
+1. Company Ticker News: GET /api/v1?tickers={ticker}&items={count}&page={page}&token={api_key}
+2. Company Ticker News Advanced: GET /api/v1?tickers-include={tickers}&items={count}&page={page}&token={api_key}
+3. General Market News: GET /api/v1/category?section={section}&items={count}&page={page}&token={api_key}
+4. Filter by Topic: GET /api/v1?topic={topic}&items={count}&page={page}&token={api_key}
+5. Filter by Sentiment: GET /api/v1?sentiment={sentiment}&items={count}&page={page}&token={api_key}
+
+## Documentation
+- Documentation: https://stocknewsapi.com/documentation
+- Examples: https://stocknewsapi.com/examples
+- Pricing: https://stocknewsapi.com/pricing
+- Status: https://stocknewsapi.com/status

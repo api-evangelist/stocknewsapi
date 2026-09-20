@@ -1,23 +1,72 @@
 aid: stocknewsapi
 name: StockNewsAPI
-description: 'StockNewsAPI is a company surfaced via the API Evangelist harvest backlog (source: news)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'StockNewsAPI provides a JSON API for stock market and financial news data. The service offers access to clean, relevant stock market news with advanced filtering capabilities including filtering by ticker, date, sector, topic, and more. The API allows developers to retrieve news for individual tickers, multiple tickers, general market news, and provides features like sentiment analysis, trending headlines, and historical data.'
 url: https://raw.githubusercontent.com/api-evangelist/stocknewsapi/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:news
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-20 (local-v4; was harvest)
 specificationVersion: '0.20'
 created: '2026-09-20'
 modified: '2026-09-20'
+x-enrichment:
+  date: '2026-09-20'
+  status: enriched
+  artifacts_added: 8
+  pass: local-v4
+  engine: deepseek.v3.2
 tags:
 - Company
-apis: []
+- Finance
+- News
+- Stocks
+- Market Data
+apis:
+- name: Stock News API
+  description: JSON API for stock market and financial news data with filtering capabilities by ticker, date, sector, topic, and sentiment analysis.
+  humanURL: https://stocknewsapi.com/
+  baseURL: https://stocknewsapi.com/api/v1
+  image: https://stocknewsapi.com/svg/logo.svg
+  properties: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: RateLimits
+  url: rate-limits/stocknewsapi-rate-limits.yml
+- type: Plans
+  url: plans/stocknewsapi-plans-pricing.yml
+- type: Conventions
+  url: conventions/stocknewsapi-conventions.yml
+- type: Authentication
+  url: authentication/stocknewsapi-authentication.yml
+- type: Deprecation
+  url: lifecycle/stocknewsapi-lifecycle.yml
+- type: Lifecycle
+  url: lifecycle/stocknewsapi-lifecycle.yml
+- type: LLMsTxt
+  url: llms/stocknewsapi-llms.txt
+- type: DomainSecurity
+  url: security/stocknewsapi-domain-security.yml
 - type: Website
   url: https://stocknewsapi.com/
+- type: Documentation
+  url: https://stocknewsapi.com/documentation
+- type: Pricing
+  url: https://stocknewsapi.com/pricing
+- type: StatusPage
+  url: https://stocknewsapi.com/status
+- type: Examples
+  url: https://stocknewsapi.com/examples
+- type: FAQ
+  url: https://stocknewsapi.com/faq
+- type: Forum
+  url: https://stocknewsapi.com/forum
+- type: Contact
+  url: https://stocknewsapi.com/contact
+- type: SignUp
+  url: https://stocknewsapi.com/register
+- type: Login
+  url: https://stocknewsapi.com/login

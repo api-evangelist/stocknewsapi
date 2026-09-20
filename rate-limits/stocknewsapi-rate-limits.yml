@@ -1,0 +1,23 @@
+generated: '2026-09-20'
+method: searched
+source: https://stocknewsapi.com/pricing
+name: Stock News API Rate Limits
+limits:
+- name: Basic Plan Monthly Limit
+  limit_text: 20,000 calls per month
+  max: 20000
+  window: month
+  scope: per-api-key
+  plan: Basic
+- name: Premium Plan Monthly Limit
+  limit_text: 50,000 calls per month
+  max: 50000
+  window: month
+  scope: per-api-key
+  plan: Premium
+- name: Free Trial Limit
+  limit_text: 100 calls with access to all features
+  max: 100
+  window: trial-period
+  scope: per-api-key
+  note: Free trial for first 5 days

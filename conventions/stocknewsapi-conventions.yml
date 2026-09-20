@@ -1,0 +1,22 @@
+generated: '2026-09-20'
+method: searched
+source: https://stocknewsapi.com/documentation
+authentication:
+  style: api-key
+  location: query
+  parameter: token
+pagination:
+  style: offset-based
+  parameters:
+    page: Page number
+    items: Number of items per page
+  response: Returns array of news items
+error_handling:
+  format: JSON object with error message
+  envelope: Returns error message in JSON response
+idempotency:
+  coverage: none
+  scope: []
+reversibility:
+  coverage: na
+  note: Read-only API for news data retrieval
