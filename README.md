@@ -64,5 +64,100 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-StockNewsAPI is a company surfaced via the API Evangelist harvest backlog (source: news) and added to the network as a stub for full-pipeline profiling.
-- https://stocknewsapi.com/
+StockNewsAPI provides a JSON API for stock market and financial news data. The service offers access to clean, relevant stock market news with advanced filtering capabilities including filtering by ticker, date, sector, topic, and more. The API allows developers to retrieve news for individual tickers, multiple tickers, general market news, and provides features like sentiment analysis, trending headlines, and historical data.
+
+**Areas:** Company · Finance · News · Stocks · Market Data
+
+## StockNewsAPI on APIs.io
+
+Everything profiled for StockNewsAPI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/stocknewsapi/](https://apis.io/providers/stocknewsapi/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Stock News API](https://apis.io/apis/stocknewsapi/stock-news-api/) — JSON API for stock market and financial news data with filtering capabilities by ticker, date, sector, topic, and sentiment analysis.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Stocknewsapi Authentication](https://apis.io/security/stocknewsapi/stocknewsapi-authentication/)
+- [Stocknewsapi Domain Security](https://apis.io/security/stocknewsapi/stocknewsapi-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Stocknewsapi Plans Pricing](https://apis.io/plans/stocknewsapi/stocknewsapi-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Stocknewsapi Rate Limits](https://apis.io/rate-limits/stocknewsapi/stocknewsapi-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://stocknewsapi.com/)
+- [Documentation](https://stocknewsapi.com/documentation)
+- [Pricing](https://stocknewsapi.com/pricing)
+- [Sign up](https://stocknewsapi.com/register)
+- [Status](https://stocknewsapi.com/status)
+
+## API Evangelist rating
+
+**Kin Score 31.5** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 6.5 |
+| Contract governance | 0.0 |
+| Operational transparency | 55.3 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 55.3 |
+
+**Agent readiness 6.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | documented (partial credit) |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/stocknewsapi/](https://apis.io/providers/stocknewsapi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for StockNewsAPI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/stocknewsapi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
